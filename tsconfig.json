@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"jsx": "react",
+		"module": "esnext",
+		"strict": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"isolatedModules": true,
+		"noEmit": true,
+		"moduleResolution": "node",
+		"baseUrl": ".", // Ensure this is set to the project root
+		"paths": {
+			"@/*": ["src/*"] // Alias for your src directory
+		}
+	},
+	"include": ["src", "vite.config.ts"]
+}
